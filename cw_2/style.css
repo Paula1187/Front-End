@@ -8,21 +8,21 @@
 
 .title{
     width: 100%;
-    height: 100px;
+    height: auto;
     display: block;
     background-color: #779E98;
 }
 
 .title h1{
-    padding-top: 25px;
+    padding: 1em 0 1em 0;
 }
 
 .subtitle{
     width: 100%;
-    height: 300px;
+    height: auto;
     display: block;
     background-color: #475E5B;
-    padding-top: 55px;
+    padding: 2em 0 2em 0;
 }
 
 .subtitle img{
@@ -31,39 +31,50 @@
 
 .content{
     background-color: #377a6b;
-    width: 100%;
-    height: 450px;
+   width: 100%;
+    height: auto;
 }
 
 .inner_content{
-    width: 900px;
+    width: auto;
     display:flex;
 	justify-content: center;
-    padding-top: 50px;
+    width: 90%;
+    padding: 2em 0 2em 0;
 }
 
 .content_gif{
-    float: left;
     width: 50%;
+    
 }
 
 .content_text{
-    padding-top: 50px;
-    float: left;
+    padding-top: 2em;
     width: 50%;
+    margin: 3em;
 }
 
 .footer{
     width: 100%;
+    height: 4em;
     background-color: #1a3b33;
-    height: 100px;
-    padding-top: 60px;
+    padding-top: 2.5em;
     bottom: 0;
     text-align: right;
    
 }
 
 .footer span{
-    padding-right: 20px;
+    padding-right: 2em;
+}
+
+@media(max-width: 600px){
+    .content_gif img{
+        display: none;
+    }
+
+    .content_text{
+        width: auto;
+    }
 }
 
