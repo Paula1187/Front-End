@@ -57,7 +57,7 @@
 }
 
 .content_text{
-    height: 27em;
+    min-height: 27em;
     width: 50%;
     margin: -3em 3em -10em 3em;
     padding: 2em;
@@ -78,9 +78,9 @@
 
 .footer{
     width: 100%;
-    height: 3em;
+    min-height: 5em;
     background-color: #382A21;
-    padding-top: 5em;
+    padding-top: 9em;
     bottom: 0;
     text-align: right;
    
@@ -92,7 +92,7 @@
 }
 
 @media(max-width: 600px){
-    .content_gif img{
+    .content_gif{
         display: none;
     }
 
@@ -100,4 +100,3 @@
         width: auto;
     }
 }
-
