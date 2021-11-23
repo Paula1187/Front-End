@@ -41,7 +41,6 @@
     height: auto;
 }
 
-
 .inner_content{
     width: auto;
     display:flex;
@@ -52,6 +51,7 @@
 
 .content_gif{
     width: 50%;
+    
 }
 
 .content_text{

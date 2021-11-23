@@ -57,6 +57,10 @@ h1{
     flex: 6;
 }
 
+.preview img{
+    max-width: 100%;
+}
+
 .desc{
     flex: 5;
     color: black !important;
