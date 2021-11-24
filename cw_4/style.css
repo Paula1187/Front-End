@@ -1,0 +1,110 @@
+*{
+    margin: 0 auto;
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.cookies,.footer,.animals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.animals{
+    display: flex;
+    justify-content: flex-start !important;
+    padding: 20px 50px;
+    border-bottom: 2px solid black;
+    
+}
+
+.cookies{
+    position: static;
+    background-color: black;
+    color: white;
+}
+
+
+.images{
+    width:40vw;
+    height:40vw;
+    position:relative;
+    
+  }
+  .front{
+    background-color: #e0e0e0;
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  .front:active{
+    opacity:0;
+  }
+  .image1{
+    background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/slon.jpg?raw=true);
+    background-size: cover;
+  }
+
+  .image2{
+      background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/zebra.jpg?raw=true);
+      background-size: cover;
+  }
+
+  .image3{
+      background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/lew.jpg?raw=true);
+      background-size: cover;
+  }
+
+  .image4{
+      background-image: url(https://github.com/apietryga/kurs-Front-end/blob/master/materialy/lekcja2/cw2/nosorozec.jpg?raw=true);
+      background-size: cover;
+  }
+  .images div{
+    width:100%;
+    height:100%;
+    position: absolute;
+  }
+  
+  
+  .content{
+    min-height: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .content div{
+    width: 35vw;
+    height: 35vw;
+  }
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0 !important;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+@media(max-width:720px){
+    .content div{
+        width: 60vw;
+        height: 60vw;
+        margin-top: 10vh;
+    }
+}
