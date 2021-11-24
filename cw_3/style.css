@@ -35,6 +35,14 @@
     background-image:url(https://raw.githubusercontent.com/apietryga/kurs-Front-end/master/materialy/lekcja2/cw1/logo_sprites.jpg);
   }
 
+  .sprite:hover{
+    background-position: 0 -200px;
+  }
+
+  .sprite:active{
+    background-position: 0 -400px;
+  }
+
 
 .chartX,.chartY{
     border:5px solid black;
