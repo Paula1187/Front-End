@@ -105,6 +105,10 @@ a:hover{
     .content div{
         width: 60vw;
         height: 60vw;
-        margin-top: 10vh;
+        margin-top: 5vh;
+    }
+
+    .content{
+        margin-bottom: 20vh;
     }
 }
