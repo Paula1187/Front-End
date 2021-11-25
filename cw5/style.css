@@ -4,7 +4,12 @@
 }
 
 header{
-  padding: 10vh 0 2vh 10vh;
+  display: flex;
+  position: flex;
+  top: 0;
+  background-color: black;
+  color: white;
+  padding: 2vh;
 }
 
 
@@ -34,7 +39,7 @@ a i{
 }
 
 .wrapper{
-  padding: 6vh 10vw;
+  padding: 8vw 10vw;
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -67,14 +72,18 @@ a i{
     min-width: 80%;
   }
 
+
+
 }
 
 footer{
-  width: 100%;
-  padding: 2vh 2vh 2vh 0;
+  padding: 2vh 0 2vh 0;
   color: white;
   background-color: black;
   position: fixed;
-  bottom: 0;
+  bottom: 0 !important;
   text-align: right;
+  width: 100%;
 }
+
+
