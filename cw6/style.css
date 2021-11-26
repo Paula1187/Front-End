@@ -1,0 +1,234 @@
+* {
+  margin: 0 auto;
+  font-family: 'Rajdhani', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-image: url(img/prism.png);
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+  padding: 2vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #d1a000;
+  padding: 0.5vw 0.5vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a :hover {
+  color: white;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+  padding: 2vw 0;
+}
+
+main content {
+  width: 50%;
+}
+
+main content img {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main menu {
+  width: 30%;
+}
+
+main menu .blocks {
+  margin: 1vw 0;
+  padding: 0.5vw;
+  border: 2px solid #d1a000;
+  -webkit-transition: background-color 1s, -webkit-transform 1s;
+  transition: background-color 1s, -webkit-transform 1s;
+  transition: transform 1s, background-color 1s;
+  transition: transform 1s, background-color 1s, -webkit-transform 1s;
+}
+
+main menu .blocks:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: #755a00;
+}
+
+@media (max-width: 720px) {
+  main {
+    display: unset;
+    padding-top: 10vw !important;
+    width: 90%;
+  }
+  main .content_text {
+    margin: 7vw !important;
+  }
+  main menu {
+    padding-top: 10vw !important;
+    width: 80%;
+    padding: unset;
+  }
+  main menu .blocks {
+    margin: 4vw 0;
+    padding: 2vw;
+  }
+  .comment_section {
+    padding-top: 10vw !important;
+    padding-bottom: 4vw !important;
+    width: 95% !important;
+  }
+  section {
+    width: 90% !important;
+  }
+  section .written_comment {
+    padding-top: 4vw !important;
+  }
+  footer {
+    padding-top: 10vw !important;
+  }
+  footer .text {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 10vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.comment_section {
+  width: 75%;
+}
+
+section {
+  width: 70%;
+}
+
+section .comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.7vw 0;
+}
+
+section .comment .icon {
+  border: 2px solid #d1a000;
+  padding: 0.4vw;
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .comment .icon i {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .comment .comment {
+  border-radius: 20px;
+  background-color: black;
+}
+
+section .comment .comment span form textarea {
+  width: 60vw;
+  color: white;
+  background-color: transparent;
+  border-radius: 20px;
+  border: none;
+  padding: 0.5vw 0 0 2vw;
+}
+
+section .written_comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1vw;
+}
+
+section .written_comment .icon {
+  border: 2px solid #d1a000;
+  padding: 1vw;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .written_comment .comment {
+  border-radius: 0 20px 20px 0;
+  background-color: black;
+}
+
+section .written_comment .comment span {
+  padding: 2vw;
+}
+
+footer {
+  padding-top: 3vw;
+  text-align: center;
+}
+
+footer .icons i {
+  font-size: 30px;
+  color: white;
+  padding: 0.4vw;
+}
+
+footer .text {
+  text-align: right !important;
+  padding: 1vw 1.5vw;
+  color: white;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
