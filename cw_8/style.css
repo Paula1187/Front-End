@@ -1,0 +1,53 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-color: white;
+  }
+  
+  body h1 {
+    text-align: center;
+  }
+
+  img{
+      max-width: 70vw !important;
+  }
+  
+  body main {
+    display: flex;
+    justify-content: center;
+  }
+  
+  body main div {
+    background-color: grey;
+    opacity: 0.6;
+    border: black;
+    color: black;
+    transition: opacity 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+  }
+
+  body main div:hover{
+      opacity: 1;
+  }
+  
+  body main img {
+    max-width: 100%;
+    flex: 1;
+  }
+  
+  body footer {
+    text-align: right;
+  }
+
+  .left, .right{
+      font-size: 2.5vw;
+  }
+
+  footer{
+      padding: 3vw;
+  }
