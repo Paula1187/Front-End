@@ -10,10 +10,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
-    <title>CIRIO Extra Virgin Olive</title>
+    <link rel="stylesheet" href="css/fontello.css">
+    <title>CIRIO Extra Virgin Oil</title>
 </head>
 <body>
-    <content>
+    <header>
+        <div class="inner_header">
+            <nav class="hamburger">
+                <div id="menuToggle">
+                  <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul id="menu">
+                    <a href="#"><li>Strona główna</li></a>
+                    <a href="#oil"><li>Nasze oliwy</li></a>
+                    <a href="#"><li>Kontakt</li></a>
+                  </ul>
+                </div>
+              </nav>
+              <script>
+                const input = document.querySelector("#menuToggle input");
+                const allA = document.querySelectorAll("#menu a");
+                for(const a of allA){
+                    a.onclick = () => {
+                    input.checked = false;
+                    }
+                }
+            </script>
+            <img src="images/toppng.com-olive-1221x1400.png" alt="olive">
+        </div>
+    </header>
+   
+
+   
+    <main>
         <div class="block1">
             <div class="polaroid">
                 <div class="images">
@@ -37,20 +68,41 @@
             </div>
             <div class="character">
                 <div class="wrapper">
-                    <span><div class="text1"> Wytłoczonym logotypie</div></span>
                     <span>
                         <div class="circle">
                             <img src="images/olive1.png" alt="CIRIO Extra Virgin Olive Classico 500ml">
                         </div>
                     </span>
-                    <span><div class="text2">Wytłoczonych sztućcach, które zapraszają do codziennej konsumpcji.</div></span>
-                    <span><div class="text3">Spersonalizowanej szyjce</div></span>
-                    <span><div class="text4">Zaokrąglonych liniach, przywodzących na myśl serce</div></span>
+                    <span><div class="text1"> 
+                        Wytłoczonym logotypie
+                        <img src="images/arrow.png" alt="strzałka">
+                    </div></span>
+                    
+                    <span>
+                        <div class="text2">
+                            <img src="images/arrow.png" alt="strzałka">
+                            Wytłoczonych sztućcach, które zapraszają do codziennej konsumpcji.
+                        </div>
+                    </span>
+                    <span>
+                        <div class="text3">
+                            <img src="images/arrow.png" alt="strzałka">
+                            Spersonalizowanej<br> szyjce
+                        </div>
+                    </span>
+                    <span>
+                        <div class="text4">
+                            <img src="images/arrow.png" alt="strzałka">
+                            Zaokrąglonych liniach, przywodzących na myśl serce
+                            
+                        </div>
+                    </span>
                 </div>
             </div>
         </div>
 
         <div class="block3">
+            <a name="oil"></a>
             <h1>Gamę produktów Cirio tworzą:</h1><br><br>
             <div class="inner_block3">
                 <div class="product">
@@ -67,7 +119,38 @@
                 </div>
             </div>
         </div>
-    </content>
+    </main>
+    <footer>
+        <img src="images/cirio.png" alt="logo CIRIO">
+        <div class="inner_footer">
+               <div class="contact">
+                   <div class="block1">
+                        <a href="#">
+                            <i class="icon-twitter"></i>
+                        </a>
+                   </div>
+                   <div class="block2">
+                         <a href="#">
+                            <i class="icon-facebook-squared"></i>
+                        </a>
+                    </div>
+                    <div class="block3">
+                        <a href="#">
+                            <i class="icon-instagram"></i>
+                         </a>
+                    </div>
+               </div>
+               <br>
+               <span>Tworzymy oliwy z pasją...</span>
+               <br>
+               <br>
+               <div class="copy">
+               <p> CIRIO &copy; 2022 Wszelkie prawa zastrzeżone<p><br>
+                <a href="#">Polityka prywatności
+               </div>
+                
+        </div>
+    </footer>
     
 </body>
 </html>
