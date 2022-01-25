@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>CIRIO Extra Virgin Oil</title>
+</head>
+<body>
+    <script>
+        AOS.init();
+      </script>
+    <header>
+        <div class="inner_header">
+            <nav class="hamburger">
+                <div id="menuToggle">
+                  <input type="checkbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul id="menu">
+                    <a href="#"><li>Strona główna</li></a>
+                    <a href="#oil"><li>Nasze oliwy</li></a>
+                    <a href="#media"><li>Social media</li></a>
+                  </ul>
+                </div>
+              </nav>
+              <script>
+                const input = document.querySelector("#menuToggle input");
+                const allA = document.querySelectorAll("#menu a");
+                for(const a of allA){
+                    a.onclick = () => {
+                    input.checked = false;
+                    }
+                }
+            </script>
+            <img src="images/toppng.com-olive-1221x1400.png" alt="olive">
+        </div>
+    </header>
+   
+
+   
+    <main>
+        <div class="block1">
+            <div class="polaroid">
+                <div class="images">
+                    <div class="firstImage">
+                        <img src="images/frame.png" alt="dziewczyna na polu oliwek CIRIO">
+                    </div>
+                    <div class="secondImage">
+                        <img src="images/frame.png" alt="skrzynia oliwek CIRIO">
+                    </div>
+                </div>
+            </div>
+
+            <div class="description">
+                <h1 data-aos="fade-up"
+                data-aos-duration="3000">Kochamy pokazywać naszą pasję światu</h1><br>
+                <p data-aos="fade-up"
+                data-aos-duration="3000">Całe opakowanie oliwy Cirio oddaje wielką miłość do jedzenia i prawdziwą przyjemność z codziennego gotowania. Oprócz logo, na butelkach wytłaczamy widelec i łyżkę, które są zaproszeniem do wzbogacania smaku każdego dnia o nowe przepisy - proste, ale pełne uczuć.</p>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="text">
+                <h1 data-aos="fade-up"
+                data-aos-duration="3000">Każdą butelkę<br> oliwy z oliwek Cirio<br> rozpoznasz po:</h1>
+            </div>
+            <div class="character">
+                <div class="wrapper">
+                    <span>
+                        <div class="circle">
+                            <img src="images/olive1.png" alt="CIRIO Extra Virgin Olive Classico 500ml">
+                        </div>
+                    </span>
+                    <span><div class="text1"> 
+                        Wytłoczonym logotypie
+                        <img src="images/arrow.png" alt="strzałka">
+                    </div></span>
+                    
+                    <span>
+                        <div class="text2">
+                            <img src="images/arrow.png" alt="strzałka">
+                            Wytłoczonych sztućcach, które zapraszają do codziennej konsumpcji.
+                        </div>
+                    </span>
+                    <span>
+                        <div class="text3">
+                            <img src="images/arrow.png" alt="strzałka">
+                            Spersonalizowanej<br> szyjce
+                        </div>
+                    </span>
+                    <span>
+                        <div class="text4">
+                            <img src="images/arrow.png" alt="strzałka">
+                            Zaokrąglonych liniach, przywodzących na myśl serce
+                            
+                        </div>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="block3">
+            <a name="oil"></a>
+            <h1 data-aos="fade-up"
+            data-aos-duration="3000">Gamę produktów Cirio tworzą:</h1><br><br>
+            <div class="inner_block3">
+                <div class="product">
+                    <img src="images/olive3.png" alt="CIRIO Extra Virgin Olive Classico 5L">
+                    <h3>Oliwy na codzienny stół o włoskim charakterze</h3>
+                </div>
+                <div class="product">
+                    <img src="images/olive2.png" alt="CIRIO Extra Virgin Olive Organic 500ml">
+                    <h3>Autentyczne oliwy - wprost z natury</h3>
+                </div>
+                <div class="product">
+                    <img src="images/olive1.png" alt="CIRIO Extra Virgin Olive Classico 500ml">
+                    <h3>Wyselekcjonowane oliwy z oliwek</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img src="images/cirio.png" alt="logo CIRIO">
+        <div class="inner_footer">
+               <div class="contact">
+                   <a name="media"></a>
+                   <div class="block1">
+                        <a href="#">
+                            <i class="icon-twitter"></i>
+                        </a>
+                   </div>
+                   <div class="block2">
+                         <a href="#">
+                            <i class="icon-facebook-squared"></i>
+                        </a>
+                    </div>
+                    <div class="block3">
+                        <a href="#">
+                            <i class="icon-instagram"></i>
+                         </a>
+                    </div>
+               </div>
+               <br>
+               <span>Tworzymy oliwy z pasją...</span>
+               <br>
+               <br>
+               <div class="copy">
+               <p> CIRIO &copy; 2022 Wszelkie prawa zastrzeżone<p><br>
+                <a href="#">Polityka prywatności
+               </div>
+                
+        </div>
+    </footer>
+    
+</body>
+</html>
